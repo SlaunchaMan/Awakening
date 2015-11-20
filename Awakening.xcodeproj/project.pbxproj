@@ -13,13 +13,11 @@
 		1FDF1ACD1BFE817200362D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1ACC1BFE817200362D98 /* Assets.xcassets */; };
 		1FDF1AD01BFE817200362D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1ACE1BFE817200362D98 /* LaunchScreen.storyboard */; };
 		1FDF1AD81BFE81C100362D98 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AD71BFE81C100362D98 /* Countdown.swift */; };
-		1FDF1ADA1BFE873000362D98 /* MonospacedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AD91BFE873000362D98 /* MonospacedFont.swift */; };
 		1FDF1AE41BFE878400362D98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AE31BFE878400362D98 /* ViewController.swift */; };
 		1FDF1AE71BFE878400362D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1AE51BFE878400362D98 /* Main.storyboard */; };
 		1FDF1AE91BFE878400362D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1AE81BFE878400362D98 /* Assets.xcassets */; };
 		1FDF1AF11BFE87DA00362D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AF01BFE87DA00362D98 /* AppDelegate.swift */; };
 		1FDF1AF21BFE87F500362D98 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AD71BFE81C100362D98 /* Countdown.swift */; };
-		1FDF1AF31BFE87F500362D98 /* MonospacedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AD91BFE873000362D98 /* MonospacedFont.swift */; };
 		1FDF1B1F1BFE885200362D98 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1B1D1BFE885200362D98 /* Interface.storyboard */; };
 		1FDF1B211BFE885200362D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1B201BFE885200362D98 /* Assets.xcassets */; };
 		1FDF1B281BFE885300362D98 /* Awakening-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1FDF1B271BFE885300362D98 /* Awakening-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -33,7 +31,9 @@
 		1FDF1B4D1BFE893900362D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1B4C1BFE893900362D98 /* Assets.xcassets */; };
 		1FDF1B501BFE893900362D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDF1B4E1BFE893900362D98 /* Main.storyboard */; };
 		1FDF1B551BFE899300362D98 /* Countdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AD71BFE81C100362D98 /* Countdown.swift */; };
-		1FDF1B561BFE8A4500362D98 /* MonospacedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDF1AD91BFE873000362D98 /* MonospacedFont.swift */; };
+		1FEC6F311BFFCB2700F924E0 /* MonospacedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC6F301BFFCB2700F924E0 /* MonospacedFont.swift */; };
+		1FEC6F321BFFCB2700F924E0 /* MonospacedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC6F301BFFCB2700F924E0 /* MonospacedFont.swift */; };
+		1FEC6F331BFFCB2700F924E0 /* MonospacedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC6F301BFFCB2700F924E0 /* MonospacedFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,7 +87,6 @@
 		1FDF1ACF1BFE817200362D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FDF1AD11BFE817200362D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FDF1AD71BFE81C100362D98 /* Countdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Countdown.swift; sourceTree = "<group>"; };
-		1FDF1AD91BFE873000362D98 /* MonospacedFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MonospacedFont.swift; path = "Awakening-iOS/MonospacedFont.swift"; sourceTree = "<group>"; };
 		1FDF1ADF1BFE878400362D98 /* Awakening-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awakening-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDF1AE31BFE878400362D98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1FDF1AE61BFE878400362D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +109,7 @@
 		1FDF1B4C1BFE893900362D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FDF1B4F1BFE893900362D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FDF1B511BFE893900362D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEC6F301BFFCB2700F924E0 /* MonospacedFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonospacedFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				1FDF1AD71BFE81C100362D98 /* Countdown.swift */,
-				1FDF1AD91BFE873000362D98 /* MonospacedFont.swift */,
+				1FEC6F301BFFCB2700F924E0 /* MonospacedFont.swift */,
 				1FDF1AC41BFE817200362D98 /* Awakening-iOS */,
 				1FDF1AE01BFE878400362D98 /* Awakening-tvOS */,
 				1FDF1B1C1BFE885200362D98 /* Awakening-watchOS */,
@@ -432,7 +432,7 @@
 				1FDF1AC81BFE817200362D98 /* ViewController.swift in Sources */,
 				1FDF1AC61BFE817200362D98 /* AppDelegate.swift in Sources */,
 				1FDF1AD81BFE81C100362D98 /* Countdown.swift in Sources */,
-				1FDF1ADA1BFE873000362D98 /* MonospacedFont.swift in Sources */,
+				1FEC6F311BFFCB2700F924E0 /* MonospacedFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +443,7 @@
 				1FDF1AF11BFE87DA00362D98 /* AppDelegate.swift in Sources */,
 				1FDF1AE41BFE878400362D98 /* ViewController.swift in Sources */,
 				1FDF1AF21BFE87F500362D98 /* Countdown.swift in Sources */,
-				1FDF1AF31BFE87F500362D98 /* MonospacedFont.swift in Sources */,
+				1FEC6F321BFFCB2700F924E0 /* MonospacedFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,7 +464,7 @@
 				1FDF1B4B1BFE893900362D98 /* ViewController.swift in Sources */,
 				1FDF1B491BFE893900362D98 /* AppDelegate.swift in Sources */,
 				1FDF1B551BFE899300362D98 /* Countdown.swift in Sources */,
-				1FDF1B561BFE8A4500362D98 /* MonospacedFont.swift in Sources */,
+				1FEC6F331BFFCB2700F924E0 /* MonospacedFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,6 +771,7 @@
 				1FDF1AD61BFE817200362D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDF1AEB1BFE878400362D98 /* Build configuration list for PBXNativeTarget "Awakening-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -779,6 +780,7 @@
 				1FDF1AED1BFE878400362D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDF1B3A1BFE885300362D98 /* Build configuration list for PBXNativeTarget "Awakening-watchOS Extension" */ = {
 			isa = XCConfigurationList;
@@ -787,6 +789,7 @@
 				1FDF1B3C1BFE885300362D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDF1B3E1BFE885300362D98 /* Build configuration list for PBXNativeTarget "Awakening-watchOS" */ = {
 			isa = XCConfigurationList;
@@ -795,6 +798,7 @@
 				1FDF1B401BFE885300362D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FDF1B521BFE893900362D98 /* Build configuration list for PBXNativeTarget "Awakening-OSX" */ = {
 			isa = XCConfigurationList;
@@ -803,6 +807,7 @@
 				1FDF1B541BFE893900362D98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
